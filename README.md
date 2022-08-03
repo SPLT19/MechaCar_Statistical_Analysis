@@ -7,7 +7,7 @@ Statistical analysis included: summary statistics, multiple linear regression an
 
 ### Tools and resources: 
 csv datasets [MechaCarMpg](MechaCar_mpg.csv) [SuspensionCoil](Suspension_Coil.csv) , R, RStudio, and libraries as Tidiverse with packages, Dpylr among others.
-![Tidiverse](Resources\Import Library.png)  
+![Tidiverse](Resources/ImportLibrary.png)  
 
 
 # Results
@@ -20,13 +20,13 @@ The first step consisted in using Multiple Linear Regression model to identify s
 Dataset consisted of 6 rows that included variables like vehicle length, vehicle weight, coiler angle, ground clearance, AWD and mpg. Levels of significance were considered with p values below 0.05 as statistically relevant.
 Results from linear regression are as seen in the following image
 
-![LinearRegressionVariableCoefficients](Resources\Linear regression.png)
+![LinearRegressionVariableCoefficients](Resources/Linearregression.png)
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-![LinearRegresionSummary](Resources\LinearRegressionSummary.png)
+![LinearRegresionSummary](Resources/LinearRegressionSummary.png)
 
-As seen in the Linear regression [summary](Resources\LinearRegressionSummary.png) involving multiple R-square values, statistical significance was seen in the variables vehicle length, vehicle weight and ground clearance with p values of p<0.001. Thus, these variables provide a non-random amount of variance related to mpg values in the dataset. 
+As seen in the Linear regression [summary](Resources/LinearRegressionSummary.png) involving multiple R-square values, statistical significance was seen in the variables vehicle length, vehicle weight and ground clearance with p values of p<0.001. Thus, these variables provide a non-random amount of variance related to mpg values in the dataset. 
 
 A fourth variable seen with some significance was vehicle weight with p value of p< 0.1 with a p value of 0.0776. However, significance level is too low that would not provide a strong non-random amount of variance compared to the other three variables mentioned before that hold a stronger statistical value. 
 However, this level of non-random variance would be important to consider depending on the level of significance. 
@@ -52,11 +52,11 @@ In conclusion the linear model can predict in around 72 percent mpg of MechaCar 
 
 Following results were obtained from Suspension coils analysis. 
 
-![SummaryAllLots](Resources\TotalSummary.png)
+![SummaryAllLots](Resources/TotalSummary.png)
 
 Next table resumes the summary per lot
 
-![LotSummary](Resources\LotSummary.png)
+![LotSummary](Resources/LotSummary.png)
 
 
 Following this results the following question emerged:
@@ -74,7 +74,7 @@ As for the individual lot analysis variance for each lot showed that lots 1 and 
 In order to analyse if there was a significant difference with the manufacturing lots and each lots individually from the population mean of pounds per square inch, a t test was performed
 Results were as shown below.
 
-![OneSampleTTest](Resources\OneSampleTTest.png)
+![OneSampleTTest](Resources/OneSampleTTest.png)
 
 Population mean per square inch was of 1500 pounds. 
 
@@ -84,7 +84,7 @@ As seen the One Sample t-test showed a p-value of 0.06. This means that the test
 As seen in the previous variance analysis of lots lot number 3 didn’t passed the test. Thus, an analysis per lot against the population lots was performed. 
 
 Results are shown below: 
-![lottest](Resources\lettest.png)
+![lottest](Resources/lettest.png)
 
 As seen p-values of each lot revealed that: 
     - Lot 1 had a p-value of 1
